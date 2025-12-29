@@ -443,7 +443,7 @@ Gemini Api
 
 <div align="center">
 
-### Built with amazing open-source technologies
+### Built with open-source technologies
 
 <table>
 <tr>
