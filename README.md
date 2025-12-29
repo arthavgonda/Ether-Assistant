@@ -24,6 +24,21 @@ EitherAssistant brings hands-free computing to users with disabilities, low conn
 
 ---
 
+## 🎥 See It In Action
+
+<div align="center">
+
+### Complete Setup & Demo Video
+
+<video width="800" controls>
+  <source src="Videos/setup.mp4" type="video/mp4">
+  Your browser does not support the video tag. [Download the video](Videos/setup.mp4) to watch it.
+</video>
+
+</div>
+
+---
+
 ## Why EitherAssistant?
 
 <div align="center">
@@ -41,19 +56,19 @@ EitherAssistant brings hands-free computing to users with disabilities, low conn
 <td width="50%">
 
 #### Conventional Assistants
-- 🔴 Requires constant cloud connection
-- 🔴 Limited to specific apps
-- 🔴 General convenience focus
-- 🔴 Privacy concerns
+- Requires constant cloud connection
+- Limited to specific apps
+- General convenience focus
+- Privacy concerns
 
 </td>
 <td width="55%">
 
 #### EitherAssistant
-- 🟢 Works completely offline
-- 🟢 Controls any app or website
-- 🟢 Built for accessibility
-- 🟢 Privacy-first design
+- Works completely offline
+- Controls any app or website
+- Built for accessibility
+- Privacy-first design
 
 </td>
 </tr>
@@ -126,7 +141,8 @@ EitherAssistant brings hands-free computing to users with disabilities, low conn
 
 ---
 
-## 📊 How It Works
+## How It Works
+
 
 ### System Flow
 
@@ -331,26 +347,26 @@ Gemini Api
 
 ---
 
-## 🔮 Planned Improvements for Round 2
+## Planned Improvements for Round 2
 
 <table>
 <tr>
 <td width="50%">
 
-### 1. 🧠 Context Memory
-- ✅ Remember previous commands
-- ✅ Follow-up commands: "open it again"
-- ✅ Conversation history
+### 1. Context Memory
+- Remember previous commands
+- Follow-up commands: "open it again"
+- Conversation history
 
 **Status:** 🟡 In Planning
 
 </td>
 <td width="50%">
 
-### 2. 🌐 Multilingual Support
-- ✅ Hindi STT models
-- ✅ Regional languages
-- ✅ Auto language detection
+### 2. Multilingual Support
+- Hindi STT models
+- Regional languages
+- Auto language detection
 
 **Status:** 🟡 In Planning
 
@@ -359,20 +375,20 @@ Gemini Api
 <tr>
 <td width="50%">
 
-### 3. ⚙️ Custom Commands
-- ✅ Personal shortcuts
-- ✅ "Start work mode" workflows
-- ✅ Command templates
+### 3. Custom Commands
+- Personal shortcuts
+- "Start work mode" workflows
+- Command templates
 
 **Status:** 🟡 In Planning
 
 </td>
 <td width="50%">
 
-### 4. ♿ Enhanced Accessibility
-- ✅ Better screen reader support
-- ✅ Voice confirmations
-- ✅ Accessibility mode toggle
+### 4. Enhanced Accessibility
+- Better screen reader support
+- Voice confirmations
+- Accessibility mode toggle
 
 **Status:** 🟡 In Planning
 
@@ -381,13 +397,13 @@ Gemini Api
 <tr>
 <td colspan="2" align="center">
 
-### 5. ⚡ Lightweight Edge Mode
+### 5. Lightweight Edge Mode
 
 <div align="left" style="display: inline-block;">
 
-- ✅ Lower CPU usage
-- ✅ Optimized offline mode
-- ✅ Performance profiles
+- Lower CPU usage
+- Optimized offline mode
+- Performance profiles
 
 </div>
 
@@ -399,10 +415,10 @@ Gemini Api
 
 ---
 
-## 🐛 Troubleshooting
+## Troubleshooting
 
 <details>
-<summary><b>🎤 Audio not detected?</b></summary>
+<summary><b>Audio not detected?</b></summary>
 
 - Check microphone permissions in system settings
 - Adjust sensitivity in application settings
@@ -411,7 +427,7 @@ Gemini Api
 </details>
 
 <details>
-<summary><b>🌐 Browser not working?</b></summary>
+<summary><b>Browser not working?</b></summary>
 
 - Ensure Chrome, Firefox, or Brave is installed
 - Check browser can run normally
@@ -420,7 +436,7 @@ Gemini Api
 </details>
 
 <details>
-<summary><b>🔌 Port 8000 in use?</b></summary>
+<summary><b>Port 8000 in use?</b></summary>
 
 - Stop other services using port 8000
 - Change port in config: `export API_PORT=8001`
@@ -429,21 +445,21 @@ Gemini Api
 </details>
 
 <details>
-<summary><b>❓ Need more help?</b></summary>
+<summary><b>Need more help?</b></summary>
 
-- 📖 API Documentation: `http://localhost:8000/docs`
-- 🐛 Create an issue on GitHub
-- 📧 Check troubleshooting section above
+- API Documentation: `http://localhost:8000/docs`
+- Create an issue on GitHub
+- Check troubleshooting section above
 
 </details>
 
 ---
 
-## 🙏 Acknowledgments
+## Acknowledgments
 
 <div align="center">
 
-### Built with amazing open-source technologies
+### Built with open-source technologies
 
 <table>
 <tr>
@@ -479,6 +495,22 @@ Browser automation
 </td>
 </tr>
 </table>
+
+---
+
+## Documentation
+
+<div align="center">
+
+### Complete Project Documentation
+
+[![PDF Documentation](https://img.shields.io/badge/_View_Full_Documentation-FF0000?style=for-the-badge&logo=adobe-acrobat-reader&logoColor=white)](Project%20Documentation%20-%20EitherAssistant.pdf)
+
+**[Download PDF →](Project%20Documentation%20-%20EitherAssistant.pdf)**
+
+*Comprehensive technical documentation covering architecture, implementation, and design decisions*
+
+</div>
 
 ---
 
