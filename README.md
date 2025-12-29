@@ -24,16 +24,13 @@ EitherAssistant brings hands-free computing to users with disabilities, low conn
 
 ---
 
-## 🎥 See It In Action
+## See It In Action
 
 <div align="center">
 
 ### Complete Setup & Demo Video
 
-<video width="800" controls>
-  <source src="Videos/setup.mp4" type="video/mp4">
-  Your browser does not support the video tag. [Download the video](Videos/setup.mp4) to watch it.
-</video>
+
 
 </div>
 
