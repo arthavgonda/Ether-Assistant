@@ -17,9 +17,9 @@ Complete installation instructions for EitherAssistant on Windows, macOS, and Li
 <td align="center" width="33%">
 
 ### 🍎 macOS
-[![Download](https://img.shields.io/badge/Download-EitherAssistant.app-purple?style=for-the-badge)](FinalApp/EitherAssistant.app)
+[![Download](https://img.shields.io/badge/Download-EitherAssistant.dmg-purple?style=for-the-badge)](FinalApp/EitherAssistant.dmg)
 
-`EitherAssistant.app`
+`EitherAssistant.dmg`
 
 </td>
 <td align="center" width="33%">
@@ -67,19 +67,19 @@ Complete installation instructions for EitherAssistant on Windows, macOS, and Li
 #### Download
 
 **Direct Download:**
-- Download: [`EitherAssistant.app`](FinalApp/EitherAssistant.app) (if available)
+- Download: [`EitherAssistant.app`](FinalApp/EitherAssistant.dmg)
 
 **From Repository:**
 1. Go to the repository `FinalApp/` directory
-2. Click on `EitherAssistant.app` or download the `.dmg` file
+2. Click on `EitherAssistant.dmg`.
 3. Click "Download" to save the application bundle
 4. If downloading as `.zip`, extract the archive first
 
 #### Installation
-1. Open the downloaded `.app` file
+1. Open the downloaded `.dmg` file
 2. If macOS blocks the app, go to System Preferences → Security & Privacy
 3. Click "Open Anyway" to allow the application
-4. Drag `EitherAssistant.app` to Applications folder (optional)
+4. Drag `EitherAssistant.dmg` to Applications folder (optional)
 
 #### Requirements
 - macOS 10.15 (Catalina) or later
@@ -95,10 +95,6 @@ Complete installation instructions for EitherAssistant on Windows, macOS, and Li
 
 ### Linux
 
-#### Download Options
-
-**Option A: Debian Package (.deb)**
-
 **Direct Download:**
 - Download: [`EitherAssistant-1.0.0-Linux.deb`](FinalApp/EitherAssistant-1.0.0-Linux.deb)
 
@@ -107,15 +103,6 @@ Complete installation instructions for EitherAssistant on Windows, macOS, and Li
 2. Click on `EitherAssistant-1.0.0-Linux.deb`
 3. Click "Download" to save the package file
 
-**Option B: AppImage**
-
-**Direct Download:**
-- Download: [`EitherAssistant-1.0.0-x86_64.AppImage`](FinalApp/EitherAssistant-1.0.0-x86_64.AppImage) (if available)
-
-**From Repository:**
-1. Go to the repository `FinalApp/` directory
-2. Click on `EitherAssistant-1.0.0-x86_64.AppImage`
-3. Click "Download" to save the AppImage file
 
 #### Installation - Debian Package
 
@@ -132,20 +119,6 @@ sudo apt-get install -f
 Launch from applications menu or terminal:
 ```bash
 EitherAssistant
-```
-
-#### Installation - AppImage
-
-```bash
-cd ~/Downloads
-chmod +x EitherAssistant-1.0.0-x86_64.AppImage
-./EitherAssistant-1.0.0-x86_64.AppImage
-```
-
-To make it available system-wide:
-```bash
-sudo mv EitherAssistant-1.0.0-x86_64.AppImage /usr/local/bin/EitherAssistant
-sudo chmod +x /usr/local/bin/EitherAssistant
 ```
 
 #### Requirements
