@@ -41,19 +41,19 @@ EitherAssistant brings hands-free computing to users with disabilities, low conn
 <td width="50%">
 
 #### Conventional Assistants
-- 🔴 Requires constant cloud connection
-- 🔴 Limited to specific apps
-- 🔴 General convenience focus
-- 🔴 Privacy concerns
+- Requires constant cloud connection
+- Limited to specific apps
+- General convenience focus
+- Privacy concerns
 
 </td>
 <td width="55%">
 
 #### EitherAssistant
-- 🟢 Works completely offline
-- 🟢 Controls any app or website
-- 🟢 Built for accessibility
-- 🟢 Privacy-first design
+- Works completely offline
+- Controls any app or website
+- Built for accessibility
+- Privacy-first design
 
 </td>
 </tr>
