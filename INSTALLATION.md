@@ -17,7 +17,7 @@ Complete installation instructions for EitherAssistant on Windows, macOS, and Li
 <td align="center" width="33%">
 
 ### 🍎 macOS
-[![Download](https://img.shields.io/badge/Download-EitherAssistant.app-purple?style=for-the-badge)](FinalApp/EitherAssistant.dmg)
+[![Download](https://img.shields.io/badge/Download-EitherAssistant.dmg-purple?style=for-the-badge)](FinalApp/EitherAssistant.dmg)
 
 `EitherAssistant.dmg`
 
