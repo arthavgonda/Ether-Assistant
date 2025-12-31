@@ -24,7 +24,7 @@ EitherAssistant brings hands-free computing to users with disabilities, low conn
 
 ---
 
-## See It In Action
+## See It In Action...
 
 <div align="center">
 
