@@ -507,7 +507,7 @@ Browser automation
 
 [![PDF Documentation](https://img.shields.io/badge/_View_Full_Documentation-FF0000?style=for-the-badge&logo=adobe-acrobat-reader&logoColor=white)](Project%20Documentation%20-%20EitherAssistant.pdf)
 
-**[Download PDF →](Project%20Documentation%20-%20EitherAssistant.pdf)**
+**[Download PDF →](https://drive.google.com/file/d/1qbPEpS_Y8iXaXrO0hxCbSktXBzcpGdYI/view?usp=share_link)**
 
 *Comprehensive technical documentation covering architecture, implementation, and design decisions*
 
