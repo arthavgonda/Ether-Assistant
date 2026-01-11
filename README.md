@@ -216,8 +216,10 @@ Compile and run the system manually for development, customization, or contribut
 - Requires .NET 8.0 SDK and Python 3.8+  
 - Enables full access to source code and configuration  
 - Recommended for developers and contributors  
-
 </details>
+
+
+<details>
 
 ### Quick Commands
 
