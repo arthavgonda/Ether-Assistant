@@ -220,10 +220,14 @@ Compile and run the system manually for development, customization, or contribut
 
 </details>
 
-### Quick Commands
+### ⚙️ Quick Commands
 
 <details>
-Use the following commands to build and run EitherAssistant from source.
+<summary><b>Build and Run from Source</b></summary>
+
+Use the commands below to compile and run EitherAssistant locally.
+
+---
 
 #### 🖥️ Frontend (Avalonia UI / .NET 8)
 
@@ -235,7 +239,7 @@ cd EitherAssistant
 dotnet restore
 dotnet build
 
-# Launch the application
+# Launch the frontend application
 dotnet run
 
 # Navigate to backend directory
@@ -245,15 +249,15 @@ cd Python
 python3 -m venv venv
 source venv/bin/activate      # Windows: venv\Scripts\activate
 
-# Install dependencies
+# Install Python dependencies
 pip install -r requirements.txt
 
-# Start the FastAPI server
+# Start the FastAPI backend server
 python3 api_server.py
 
 </details>
 
----
+
 
 ### 💬 Voice Commands
 
