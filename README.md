@@ -512,47 +512,47 @@ Natural language intent extraction with offline rule-based fallback
 </details>
 
 ---
+
 ## Acknowledgments
 
 <div align="center">
 
-### Built on proven open-source technologies
+### Built with open-source technologies
 
 <table>
 <tr>
 <td align="center">
 
 **Avalonia UI**  
-Cross-platform desktop UI framework enabling a single C# codebase with native accessibility support
+Cross-platform framework
 
 </td>
 <td align="center">
 
 **FastAPI**  
-High-performance ASGI backend framework used for REST and WebSocket-based communication
+Modern Python web framework
 
 </td>
 <td align="center">
 
 **Whisper**  
-High-accuracy speech-to-text model used for optional online transcription
+OpenAI speech recognition
 
 </td>
 <td align="center">
 
 **Vosk**  
-Lightweight offline speech recognition engine enabling fully local inference
+Offline speech recognition
 
 </td>
 <td align="center">
 
-**Selenium WebDriver**  
-Browser automation framework enabling DOM-level control across modern browsers
+**Selenium**  
+Browser automation
 
 </td>
 </tr>
 </table>
-
 </div>
 
 
