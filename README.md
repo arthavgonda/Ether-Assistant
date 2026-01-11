@@ -2,11 +2,14 @@
 
 # 🎤 EitherAssistant
 
-**Voice control for your computer. Works offline. Built for everyone.**
+**Offline-first, cross-platform voice automation framework for OS-level desktop control**
+
+A modular system enabling real-time speech recognition, intent-driven command execution, and deterministic automation across desktop operating systems — with no mandatory cloud dependency.
 
 [![Platform](https://img.shields.io/badge/Platform-Windows%20%7C%20macOS%20%7C%20Linux-blue)](https://github.com)
-[![Python](https://img.shields.io/badge/Python-3.8%2B-blue)](https://python.org)
-[![.NET](https://img.shields.io/badge/.NET-8.0-purple)](https://dotnet.microsoft.com)
+[![Backend](https://img.shields.io/badge/Backend-Python%203.8%2B-blue)](https://python.org)
+[![Frontend](https://img.shields.io/badge/Frontend-.NET%208.0%20%7C%20Avalonia-purple)](https://dotnet.microsoft.com)
+[![Architecture](https://img.shields.io/badge/Architecture-Offline--First%20%7C%20Modular-green)](#)
 
 </div>
 
@@ -14,11 +17,11 @@
 
 <div align="center">
 
-**Control your entire computer with just your voice—no internet required.**
+**Enable OS-level desktop control through real-time voice-driven automation — fully functional offline.**
 
-EitherAssistant brings hands-free computing to users with disabilities, low connectivity, or anyone who prefers voice commands.
+EitherAssistant provides an offline-first, accessibility-focused voice interface for deterministic control of applications, browsers, and system resources, designed for users with motor impairments, low-connectivity environments, and hands-free interaction workflows.
 
-• [🚀 Quick Start](#-quick-start) • [💬 Voice Commands](#-voice-commands) • [📊 Architecture](#-how-it-works) • [🔮 Roadmap](#-planned-improvements-for-round-2)
+• [🚀 Deployment Guide](#-quick-start) • [💬 Command Grammar](#-voice-commands) • [📊 System Architecture](#-how-it-works) • [🔮 Feature Roadmap](#-planned-improvements-for-round-2)
 
 </div>
 
@@ -45,10 +48,10 @@ https://github.com/user-attachments/assets/73fca6bc-e572-49d3-8705-ef38e2a9dea6
 <div align="center">
 
 ### The Problem
-> Most voice assistants need constant internet, work only with specific apps, and aren't designed for people with disabilities.
+> Most existing voice assistants are architected as cloud-dependent, application-restricted systems, resulting in high latency, limited control scope, reduced reliability in low-connectivity environments, and insufficient support for accessibility-focused use cases.
 
 ### The Solution
-> EitherAssistant works offline, controls any application, and is built specifically for accessibility and digital inclusion.
+> EitherAssistant introduces an offline-first, OS-level voice automation architecture that enables deterministic control over applications and system resources, with accessibility and privacy as first-class design constraints.
 
 </div>
 
@@ -56,20 +59,24 @@ https://github.com/user-attachments/assets/73fca6bc-e572-49d3-8705-ef38e2a9dea6
 <tr>
 <td width="50%">
 
-#### Conventional Assistants
-- Requires constant cloud connection
-- Limited to specific apps
-- General convenience focus
-- Privacy concerns
+#### Conventional Voice Assistants
+- Cloud-centric STT and NLP pipelines  
+- Mandatory continuous internet connectivity  
+- Restricted to vendor-supported applications  
+- Variable latency due to network round-trips  
+- Audio and commands processed off-device  
+- Designed primarily for general convenience  
 
 </td>
 <td width="55%">
 
 #### EitherAssistant
-- Works completely offline
-- Controls any app or website
-- Built for accessibility
-- Privacy-first design
+- Offline-first local speech inference  
+- Fully functional without network access  
+- OS- and browser-level control of any application  
+- Predictable low-latency local execution  
+- On-device audio and command processing  
+- Accessibility-driven and privacy-first design  
 
 </td>
 </tr>
