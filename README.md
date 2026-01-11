@@ -43,7 +43,7 @@ A detailed walkthrough of EitherAssistant covering the problem statement, system
 ### Live Working Setup  
 A recorded demonstration showing EitherAssistant executing real voice commands and system actions.
 
-🔗 https://github.com/user-attachments/assets/73fca6bc-e572-49d3-8705-ef38e2a9dea6
+https://github.com/user-attachments/assets/73fca6bc-e572-49d3-8705-ef38e2a9dea6
 
 </div>
 
