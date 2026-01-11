@@ -90,58 +90,76 @@ https://github.com/user-attachments/assets/73fca6bc-e572-49d3-8705-ef38e2a9dea6
 <tr>
 <td width="33%" align="center">
 
-### 🎤 Voice Control
-**Speak naturally, control everything**
-- Natural language commands
-- Real-time transcription
-- Multi-step operations
+### 🎤 Voice Control  
+**Low-latency speech-to-action pipeline**
+
+- Continuous microphone sampling at 16 kHz with real-time processing  
+- Streaming speech-to-text inference with average transcription latency < 300 ms  
+- Natural language command parsing and intent classification  
+- Supports compound and multi-step command execution  
+- Deterministic mapping of voice intents to system-level actions  
 
 </td>
 <td width="33%" align="center">
 
-### 🌐 Browser Automation
-**Search, navigate, download—all by voice**
-- Web search & navigation
-- Form filling & clicking
-- File downloads
+### 🌐 Browser Automation  
+**Voice-driven browser control and interaction**
+
+- Browser automation across Chrome, Firefox, Brave, Edge, and Chromium  
+- Voice-initiated web search, URL navigation, and page traversal  
+- Programmatic DOM interaction (click, type, submit)  
+- Automated file downloads with execution feedback  
+- No reliance on website-specific APIs or extensions  
 
 </td>
 <td width="33%" align="center">
 
-### 💻 System Control
-**Files, apps, settings—hands-free**
-- File management
-- App launching
-- System configuration
+### 💻 System Control  
+**Operating system–level command execution**
+
+- Voice-based file system operations (create, move, delete, list)  
+- Application lifecycle management (launch, focus, terminate)  
+- System configuration controls (volume, brightness, settings access)  
+- OS-specific command routing with safety validation  
+- Unified abstraction for Windows, macOS, and Linux  
 
 </td>
 </tr>
 <tr>
 <td width="33%" align="center">
 
-### 📱 App Management
-**Launch, switch, control any application**
-- Context switching
-- App control
-- Multi-app workflows
+### 📱 App Management  
+**Context-aware multi-application workflows**
+
+- Voice-driven application switching and focus control  
+- Maintains execution context across sequential commands  
+- Supports multi-application task flows (e.g., open → edit → save)  
+- Application-agnostic control without internal API dependencies  
+- State-aware command routing to the active application  
 
 </td>
 <td width="33%" align="center">
 
-### 🔇 Offline Mode
-**Works without internet using local AI**
-- Vosk offline STT
-- No cloud dependency
-- Privacy guaranteed
+### 🔇 Offline Mode  
+**Offline-first execution and inference**
+
+- Fully local speech recognition using Vosk models (~50–180 MB)  
+- Zero network dependency for core system functionality  
+- Predictable performance and latency in offline environments  
+- On-device audio processing ensuring data privacy  
+- Optional online inference fallback for higher transcription accuracy  
 
 </td>
 <td width="33%" align="center">
 
-### ♿ Accessible
-**Designed for users with disabilities**
-- Motor impairment support
-- Visual impairment support
-- Screen reader compatible
+### ♿ Accessibility  
+**Assistive computing–optimized design**
+
+- Enables 100% hands-free system interaction  
+- Eliminates dependency on keyboard and pointing devices  
+- Compatible with platform-native screen readers  
+- Reduces cognitive and physical input load  
+- Designed for users with motor  impairments  
 
 </td>
 </tr>
@@ -167,46 +185,70 @@ https://github.com/user-attachments/assets/73fca6bc-e572-49d3-8705-ef38e2a9dea6
 ![Detailed DFD](Diagrams/Level_1DFD.png)
 
 ---
-
 ## 🚀 Quick Start
 
 <details>
 <summary><b>📦 Option 1: Pre-built Binaries (Recommended)</b></summary>
 
-### ⚡ Fastest Way to Get Started
+### ⚡ Precompiled Distribution
 
-👉 **[View Detailed Installation Guide](INSTALLATION.md#-option-1-pre-built-binaries-recommended)**
+Use the pre-built executables for immediate deployment without manual setup.
 
-1. **Download** from `FinalApp/` directory
-2. **Run** the executable
-3. **Start speaking!**
+👉 **[Detailed Installation Guide](INSTALLATION.md#-option-1-pre-built-binaries-recommended)**
 
-> ✅ No installation required • ✅ Works immediately • ✅ All dependencies included
+1. Download the appropriate binary from the `FinalApp/` directory  
+2. Execute the platform-specific binary  
+3. Grant microphone permissions and begin issuing voice commands  
+
+> Includes frontend, backend, runtime dependencies, and default configuration
 
 </details>
 
 <details>
 <summary><b>🔧 Option 2: Build from Source</b></summary>
 
-👉 **[View Detailed Build Instructions](INSTALLATION.md#-option-2-build-from-source)**
+### 🧱 Source-Based Build
+
+Compile and run the system manually for development, customization, or contribution.
+
+👉 **[Detailed Build Instructions](INSTALLATION.md#-option-2-build-from-source)**
+
+- Requires .NET 8.0 SDK and Python 3.8+  
+- Enables full access to source code and configuration  
+- Recommended for developers and contributors  
+
+</details>
 
 ### Quick Commands
 
-**Frontend:**
-```bash
-cd EitherAssistant
-dotnet restore && dotnet build
-dotnet run
-```
 
-**Backend:**
+Use the following commands to build and run EitherAssistant from source.
+
+#### 🖥️ Frontend (Avalonia UI / .NET 8)
+
 ```bash
+# Navigate to frontend directory
+cd EitherAssistant
+
+# Restore dependencies and build
+dotnet restore
+dotnet build
+
+# Launch the application
+dotnet run
+
+# Navigate to backend directory
 cd Python
+
+# Create and activate virtual environment
 python3 -m venv venv
-source venv/bin/activate  # Windows: venv\Scripts\activate
+source venv/bin/activate      # Windows: venv\Scripts\activate
+
+# Install dependencies
 pip install -r requirements.txt
+
+# Start the FastAPI server
 python3 api_server.py
-```
 
 </details>
 
