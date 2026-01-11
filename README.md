@@ -255,7 +255,7 @@ python3 api_server.py
 
 ---
 
-## 💬 Voice Commands
+### 💬 Voice Commands
 
 <table>
 <tr>
