@@ -218,11 +218,11 @@ Compile and run the system manually for development, customization, or contribut
 - Recommended for developers and contributors  
 
 
-<details>
+</details>
 
 ### Quick Commands
 
-
+<details>
 Use the following commands to build and run EitherAssistant from source.
 
 #### 🖥️ Frontend (Avalonia UI / .NET 8)
