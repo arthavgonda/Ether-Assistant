@@ -220,44 +220,27 @@ Compile and run the system manually for development, customization, or contribut
 
 </details>
 
-### ⚙️ Quick Commands
-
-<details>
-<summary><b>Build and Run from Source</b></summary>
-
-Use the commands below to compile and run EitherAssistant locally.
-
----
-
-#### 🖥️ Frontend (Avalonia UI / .NET 8)
-
+### Quick Commands
+Use the given Commands to compile and run Either Assistant Locally 
+**Frontend:**
 ```bash
-# Navigate to frontend directory
 cd EitherAssistant
-
-# Restore dependencies and build
-dotnet restore
-dotnet build
-
-# Launch the frontend application
+dotnet restore && dotnet build
 dotnet run
+```
 
-# Navigate to backend directory
+**Backend:**
+```bash
 cd Python
-
-# Create and activate virtual environment
-python3 -m venv venv
-source venv/bin/activate      # Windows: venv\Scripts\activate
-
-# Install Python dependencies
+python3 -m venv venv # Building the Virtual Environment 
+source venv/bin/activate  # Windows: venv\Scripts\activate 
 pip install -r requirements.txt
-
-# Start the FastAPI backend server
 python3 api_server.py
+```
 
 </details>
 
-
+---
 
 ### 💬 Voice Commands
 
@@ -271,7 +254,8 @@ python3 api_server.py
 "Switch to Firefox"
 "Open VS Code and create file test.py"
 ```
-
+-Application launch and context switching
+-Supports compound commands (2–3 actions per utterance)
 </td>
 <td>
 
@@ -281,7 +265,9 @@ python3 api_server.py
 "Open youtube.com"
 "Download Discord"
 ```
-
+-Voice-driven browser navigation and search
+-Works across Chrome, Firefox, Brave, and Edge
+-Automated downloads with execution feedback
 </td>
 </tr>
 <tr>
@@ -293,7 +279,9 @@ python3 api_server.py
 "List files in Documents"
 "Move file to Downloads"
 ```
-
+-File system operations via OS-level automation
+-Supports relative and absolute paths
+-Safe execution with validation before destructive actions
 </td>
 <td>
 
@@ -303,12 +291,14 @@ python3 api_server.py
 "Install git"
 "Volume up"
 ```
-
+-System information and utility commands
+-Package installation via native package managers
+-Real-time control of system settings (volume, brightness)
 </td>
 </tr>
 </table>
 
-> 💡 **Tip:** Speak naturally! EitherAssistant understands conversational commands.
+> 💡 **Tip:** Speak naturally! EitherAssistant understands conversational commands It's build just for you .
 
 ---
 
