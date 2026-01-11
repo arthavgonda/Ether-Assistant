@@ -255,6 +255,7 @@ python3 api_server.py
 "Open VS Code and create file test.py"
 ```
 -Application launch and context switching
+
 -Supports compound commands (2–3 actions per utterance)
 </td>
 <td>
@@ -266,7 +267,9 @@ python3 api_server.py
 "Download Discord"
 ```
 -Voice-driven browser navigation and search
+
 -Works across Chrome, Firefox, Brave, and Edge
+
 -Automated downloads with execution feedback
 </td>
 </tr>
@@ -280,7 +283,9 @@ python3 api_server.py
 "Move file to Downloads"
 ```
 -File system operations via OS-level automation
+
 -Supports relative and absolute paths
+
 -Safe execution with validation before destructive actions
 </td>
 <td>
@@ -292,7 +297,9 @@ python3 api_server.py
 "Volume up"
 ```
 -System information and utility commands
+
 -Package installation via native package managers
+
 -Real-time control of system settings (volume, brightness)
 </td>
 </tr>
@@ -334,7 +341,6 @@ python3 api_server.py
 </table>
 
 ---
-
 ## Tech Stack
 
 <table>
@@ -342,36 +348,41 @@ python3 api_server.py
 <td align="center" width="20%">
 
 ![Avalonia](https://img.shields.io/badge/AVALONIA-UI-blue?style=for-the-badge&logo=avalonia)
-**Frontend**  
-C# .NET 8.0
+**Frontend Layer**  
+C# • .NET 8.0  
+Cross-platform desktop UI using MVVM architecture and native accessibility APIs
 
 </td>
 <td align="center" width="20%">
 
 ![FastAPI](https://img.shields.io/badge/FASTAPI-009688?style=for-the-badge&logo=fastapi)
-**Backend**  
-Python 3.8+
+**Backend Services**  
+Python 3.8+  
+ASGI-based REST and WebSocket server for low-latency command processing
 
 </td>
 <td align="center" width="20%">
 
 ![Whisper](https://img.shields.io/badge/WHISPER-STT-brightgreen?style=for-the-badge)
 **Speech Recognition**  
-Whisper + Vosk
+Whisper + Vosk  
+Hybrid STT pipeline with offline-first inference and optional high-accuracy mode
 
 </td>
 <td align="center" width="20%">
 
 ![Selenium](https://img.shields.io/badge/SELENIUM-AUTOMATION-orange?style=for-the-badge&logo=selenium)
-**Automation**  
-Browser Control
+**Automation Layer**  
+Selenium WebDriver  
+Browser and DOM-level automation independent of website-specific APIs
 
 </td>
 <td align="center" width="20%">
 
 ![AI](https://img.shields.io/badge/AI-GEMINI-purple?style=for-the-badge)
-**Command Parsing**
-Gemini Api
+**Command Interpretation**  
+Gemini API (Optional)  
+Natural language intent extraction with offline rule-based fallback
 
 </td>
 </tr>
