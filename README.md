@@ -222,6 +222,8 @@ Compile and run the system manually for development, customization, or contribut
 
 ### Quick Commands
 Use the given Commands to compile and run Either Assistant Locally 
+
+
 **Frontend:**
 ```bash
 cd EitherAssistant
@@ -510,47 +512,49 @@ Natural language intent extraction with offline rule-based fallback
 </details>
 
 ---
-
 ## Acknowledgments
 
 <div align="center">
 
-### Built with open-source technologies
+### Built on proven open-source technologies
 
 <table>
 <tr>
 <td align="center">
 
 **Avalonia UI**  
-Cross-platform framework
+Cross-platform desktop UI framework enabling a single C# codebase with native accessibility support
 
 </td>
 <td align="center">
 
 **FastAPI**  
-Modern Python web framework
+High-performance ASGI backend framework used for REST and WebSocket-based communication
 
 </td>
 <td align="center">
 
 **Whisper**  
-OpenAI speech recognition
+High-accuracy speech-to-text model used for optional online transcription
 
 </td>
 <td align="center">
 
 **Vosk**  
-Offline speech recognition
+Lightweight offline speech recognition engine enabling fully local inference
 
 </td>
 <td align="center">
 
-**Selenium**  
-Browser automation
+**Selenium WebDriver**  
+Browser automation framework enabling DOM-level control across modern browsers
 
 </td>
 </tr>
 </table>
+
+</div>
+
 
 ---
 
