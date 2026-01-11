@@ -52,7 +52,9 @@ https://github.com/user-attachments/assets/73fca6bc-e572-49d3-8705-ef38e2a9dea6
 
 <div align="center">
 
-### Click on the link to get a full explanation of ether 
+For a complete explanation of EitherAssistant:
+
+🔗 https://drive.google.com/drive/folders/1x7_5lAEeaOreMWTTmKOiBzdXMjcUWLdJ?usp=sharing
 
 
 
