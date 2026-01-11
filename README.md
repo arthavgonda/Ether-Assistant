@@ -29,40 +29,24 @@ Quick Navigation :
 
 ---
 
-## See It In Action...
+## Explanatory Video & Working Demo
 
 <div align="center">
 
-### Complete Setup & Demo Video
-
-
-
-https://github.com/user-attachments/assets/73fca6bc-e572-49d3-8705-ef38e2a9dea6
-
-
-
-</div>
-
----
-
-
-</div>
-
-## Explanatory Vedio ...
-
-<div align="center">
-
-For a complete explanation of EitherAssistant:
+### Full Project Explanation  
+A detailed walkthrough of EitherAssistant covering the problem statement, system architecture, accessibility focus, and implementation details.
 
 🔗 https://drive.google.com/drive/folders/1x7_5lAEeaOreMWTTmKOiBzdXMjcUWLdJ?usp=sharing
 
+---
 
+### Live Working Setup  
+A recorded demonstration showing EitherAssistant executing real voice commands and system actions.
 
-https://github.com/user-attachments/assets/73fca6bc-e572-49d3-8705-ef38e2a9dea6
-
-
+🔗 https://github.com/user-attachments/assets/73fca6bc-e572-49d3-8705-ef38e2a9dea6
 
 </div>
+
 
 ---
 ## Why EitherAssistant?
