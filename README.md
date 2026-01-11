@@ -55,9 +55,9 @@ https://github.com/user-attachments/assets/73fca6bc-e572-49d3-8705-ef38e2a9dea6
 
 </div>
 
-<table>
+<table width = 100%>
 <tr>
-<td width="50%">
+<td width="50%" valign = top >
 
 #### Conventional Voice Assistants
 - Cloud-centric STT and NLP pipelines  
@@ -68,7 +68,7 @@ https://github.com/user-attachments/assets/73fca6bc-e572-49d3-8705-ef38e2a9dea6
 - Designed primarily for general convenience  
 
 </td>
-<td width="55%">
+<td width="55%" valign = top>
 
 #### EitherAssistant
 - Offline-first local speech inference  
@@ -246,7 +246,7 @@ python3 api_server.py
 
 ### 💬 Voice Commands
 
-<table>
+<table width = 100%>
 <tr>
 <td>
 
@@ -305,7 +305,7 @@ python3 api_server.py
 -Real-time control of system settings (volume, brightness)
 </td>
 </tr>
-</table>
+</table width = 100%>
 
 > 💡 **Tip:** Speak naturally! EitherAssistant understands conversational commands It's build just for you .
 
@@ -313,7 +313,7 @@ python3 api_server.py
 
 ## 🛠️ System Requirements
 
-<table>
+<table width = 100%>
 <tr>
 <td align="center">
 
@@ -340,55 +340,46 @@ python3 api_server.py
 
 </td>
 </tr>
-</table>
+</table width = 100%>
 
 ---
 ## Tech Stack
 
-<table>
-<tr>
-<td align="center" width="20%">
+### 🖥️ Frontend
+- **Avalonia UI** — Cross-platform desktop UI framework  
+- **C# / .NET 8.0** — Application runtime and UI logic  
+- **MVVM architecture** — Clean separation of views, state, and logic  
+- **Native accessibility APIs** — Screen reader and keyboard support  
 
-![Avalonia](https://img.shields.io/badge/AVALONIA-UI-blue?style=for-the-badge&logo=avalonia)
-**Frontend Layer**  
-C# • .NET 8.0  
-Cross-platform desktop UI using MVVM architecture and native accessibility APIs
+---
 
-</td>
-<td align="center" width="20%">
+### 🧠 Backend
+- **Python 3.8+** — Core backend runtime  
+- **FastAPI (ASGI)** — High-performance REST and WebSocket server  
+- **WebSockets** — Low-latency, bidirectional communication  
+- **Async I/O** — Concurrent request and audio stream handling  
 
-![FastAPI](https://img.shields.io/badge/FASTAPI-009688?style=for-the-badge&logo=fastapi)
-**Backend Services**  
-Python 3.8+  
-ASGI-based REST and WebSocket server for low-latency command processing
+---
 
-</td>
-<td align="center" width="20%">
+### 🎤 Speech Recognition
+- **Vosk** — Offline, on-device speech-to-text inference  
+- **Whisper** — Optional high-accuracy transcription  
+- **Hybrid STT pipeline** — Automatic offline/online selection  
+- **Noise reduction & VAD** — Improved transcription reliability  
 
-![Whisper](https://img.shields.io/badge/WHISPER-STT-brightgreen?style=for-the-badge)
-**Speech Recognition**  
-Whisper + Vosk  
-Hybrid STT pipeline with offline-first inference and optional high-accuracy mode
+---
 
-</td>
-<td align="center" width="20%">
+### 🌐 Automation
+- **Selenium WebDriver** — Browser automation and DOM interaction  
+- **Cross-browser support** — Chrome, Firefox, Brave, Edge, Chromium  
+- **OS-level commands** — Application and file system control  
 
-![Selenium](https://img.shields.io/badge/SELENIUM-AUTOMATION-orange?style=for-the-badge&logo=selenium)
-**Automation Layer**  
-Selenium WebDriver  
-Browser and DOM-level automation independent of website-specific APIs
+---
 
-</td>
-<td align="center" width="20%">
-
-![AI](https://img.shields.io/badge/AI-GEMINI-purple?style=for-the-badge)
-**Command Interpretation**  
-Gemini API (Optional)  
-Natural language intent extraction with offline rule-based fallback
-
-</td>
-</tr>
-</table>
+### 🧩 Command Interpretation
+- **Gemini API (optional)** — Natural language intent extraction  
+- **Rule-based fallback parser** — Deterministic offline command handling  
+- **Context-aware execution** — Supports multi-step workflows  
 
 ---
 
@@ -407,7 +398,7 @@ Natural language intent extraction with offline rule-based fallback
 
 ## Planned Improvements for Round 2
 
-<table>
+<table width = 100%>
 <tr>
 <td width="50%">
 
@@ -457,7 +448,7 @@ Natural language intent extraction with offline rule-based fallback
 
 ### 5. Lightweight Edge Mode
 
-<div align="left" style="display: inline-block;">
+<div style="display: inline-block; text-align: left;">
 
 - Lower CPU usage
 - Optimized offline mode
@@ -469,7 +460,7 @@ Natural language intent extraction with offline rule-based fallback
 
 </td>
 </tr>
-</table>
+</table width = 100%>
 
 ---
 
@@ -512,42 +503,41 @@ Natural language intent extraction with offline rule-based fallback
 </details>
 
 ---
-
-## Acknowledgments
+## 🙏 Acknowledgments
 
 <div align="center">
 
-### Built with open-source technologies
+### 🧩 Built with open-source technologies
 
 <table>
 <tr>
 <td align="center">
 
-**Avalonia UI**  
+🖥️ **Avalonia UI**  
 Cross-platform framework
 
 </td>
 <td align="center">
 
-**FastAPI**  
+⚡ **FastAPI**  
 Modern Python web framework
 
 </td>
 <td align="center">
 
-**Whisper**  
+🎤 **Whisper**  
 OpenAI speech recognition
 
 </td>
 <td align="center">
 
-**Vosk**  
+📴 **Vosk**  
 Offline speech recognition
 
 </td>
 <td align="center">
 
-**Selenium**  
+🌐 **Selenium**  
 Browser automation
 
 </td>
